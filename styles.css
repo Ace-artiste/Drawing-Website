@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%
+    overflow= hidden;
+    color: white;
+}
+
+
+h1 {
+    background: #C91D1D;
+    background: -webkit-linear-gradient(to right, #FFD500, #FBA40E, #F02424);
+    background: linear-gradient(to right, #FFD500, #FBA40E, #F02424);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+    background-color: #101010;
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar label {
+    font-size: 12px;
+}
+
+#toolbar input {
+    width: 100%;
+}
+
+#toolbar button {
+    background-color: #9B2727
+    border: none;
+    border-radius: 4px;
+    color: #101010;
+    padding: 2px;
+}
